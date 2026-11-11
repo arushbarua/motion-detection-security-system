@@ -1,0 +1,9 @@
+# Motion Detection & Security System
+# Install with:  python -m pip install -r requirements.txt
+# Use Python 3.10, 3.11 or 3.12 (PyTorch, which ultralytics needs, may not install on newer versions).
+# tkinter (the window) and the other imports in main.py come with Python itself, so they are not listed.
+
+opencv-python>=4.8      # camera, motion detection, drawing, saving photos/video
+numpy>=1.24             # image math
+Pillow>=10.0            # shows OpenCV images inside the Tkinter window
+ultralytics>=8.3        # YOLOv8 AI model (also installs PyTorch, so the download is big)
